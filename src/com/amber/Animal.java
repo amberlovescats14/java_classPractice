@@ -17,7 +17,9 @@ public class Animal {
     public void eat(){
         System.out.println("Animal.eat()");
     }
-
+    public void move(){
+        System.out.println("MOVING");
+    }
     public int getBrain() {
         return brain;
     }

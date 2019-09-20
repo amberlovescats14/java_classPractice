@@ -22,9 +22,14 @@ public class Dog extends Animal {
 
     @Override
     public void eat() {
-        // it will do the eat in the extended class
+        // it will do the eat in the extended class //
         super.eat();
         // then run this
         System.out.println("Just Kidding");
+
+    }
+
+    public void walk(int speed){
+        System.out.println("Dog: walking at" + speed + "speed");
     }
 }
