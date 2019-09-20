@@ -9,7 +9,12 @@ public class Accounting {
     //overloading
     public Accounting(){
         //default values
-        this("0000", 00.00, "Jane Doe", "doe@rbfcu.org", "210-429-6477" );
+        this("0000", 00.00, "Jane Doe", "default@rbfcu.org", "Not Listed" );
+    }
+
+    public Accounting(String number, double balance, String customerName) {
+       this(number, balance, customerName, "default@rfbcu.org", "Phone number not on file");
+
     }
 
     public Accounting(String number, double balance, String customerName, String customerEmail, String customerPhoneNumber) {
