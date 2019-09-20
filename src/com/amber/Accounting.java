@@ -6,6 +6,20 @@ public class Accounting {
     private String customerName;
     private String customerEmail;
 
+    //overloading
+    public Accounting(){
+        //default values
+        this("0000", 00.00, "Jane Doe", "doe@rbfcu.org", "210-429-6477" );
+    }
+
+    public Accounting(String number, double balance, String customerName, String customerEmail, String customerPhoneNumber) {
+        this.number = number;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.customerEmail = customerEmail;
+        this.customerPhoneNumber = customerPhoneNumber;
+    }
+
     public String getNumber() {
         return number;
     }
