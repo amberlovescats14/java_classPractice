@@ -7,6 +7,7 @@ public class VIPcustomer {
 
     public VIPcustomer() {
         this("Name not on file", 00.00, "Email not on file");
+        System.out.println("Please update information");
     }
 
     public VIPcustomer(String name, double creditLimit) {
@@ -23,23 +24,11 @@ public class VIPcustomer {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public double getCreditLimit() {
         return creditLimit;
     }
 
-    public void setCreditLimit(double creditLimit) {
-        this.creditLimit = creditLimit;
-    }
-
     public String getEmail() {
         return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 }
