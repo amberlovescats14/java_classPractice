@@ -25,4 +25,16 @@ public class Car extends Vehicle {
         if(powerSteering) return "Turning Left";
         else return "Power Steering not available";
     }
+
+    public boolean isPowerSteering() {
+        return powerSteering;
+    }
+
+    public void setPowerSteering(boolean powerSteering) {
+        this.powerSteering = powerSteering;
+    }
+    public boolean getPowerSteering(){
+        return powerSteering;
+    }
+
 }
