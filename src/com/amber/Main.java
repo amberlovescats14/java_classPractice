@@ -11,6 +11,18 @@ public class Main {
 
         var pumpkin = new Dog("pumpkin", 1, 1, 1, 60, 1 , 1, 1, 1, "long");
         pumpkin.eat();
+
+
+
+        //double extend, vehicle => car => fordFocus
+        var myCar = new FordFocus(true);
+        myCar.increaseSpeed();
+        myCar.increaseSpeed();
+        myCar.increaseSpeed();
+        myCar.increaseSpeed();
+        myCar.increaseSpeed();
+        System.out.println(myCar.turnLeft());
+        myCar.decreasingSpeed();
     }
 
 }
